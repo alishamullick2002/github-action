@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "alisha-terraform-state-bucket"
     key    = "terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-1"
     encrypt = true
   }
 }
